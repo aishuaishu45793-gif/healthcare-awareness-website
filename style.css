@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 15px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd166;
+}
+
+/* Hero Section */
+.hero {
+  background:
+    linear-gradient(rgba(0, 119, 182, 0.8), rgba(0, 119, 182, 0.8)),
+    url("https://images.unsplash.com/photo-1580281657521-8a8c5b4f9e2b");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 20px;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.hero button {
+  background-color: #ffd166;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #ffc300;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: #0077b6;
+}
+
+/* Footer */
+footer {
+  background-color: #0077b6;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
